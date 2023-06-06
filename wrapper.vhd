@@ -74,13 +74,7 @@ begin
 				--REGIN							=> to_pio_reg_in,
 			--REGINOUT						=> to_pio_reg_inout
 		);
---			PULSE_to_GPIO_0_0_inout		=> to_GPIO_0_0_inout,	
---			PULSE_to_gpio_1_0_out		=> to_GPIO_1_0_out,
---			DATAIN_from_pio_reg_out		=> from_pio_reg_out,
---			WRn_from_pio_reg_inout_0	=> WRn_from_pio_reg_inout_0,
---			ACKn_to_pio_reg_inout_1		=> ACKn_to_pio_reg_inout_1,
---			RDY_to_pio_reg_inout_2		=> RDY_to_pio_reg_inout_2
-	
+
 end i2c_driver;
 
 configuration cfg of wrapper is
