@@ -1,5 +1,4 @@
 -- wrapper
-
 -- architectures:
 -- RTL_test: example testing HPS inout register used as control signals
 -- structure_driver_out_example_3: example using a driver output to generate variable width pulses
