@@ -6,9 +6,9 @@ Dans le cadre du cours de Hardware/Software donné par Prof. Valderrama à la Fa
 
 La partie Hardware se compose d'un driver, un test bench et d'un wrapper. Le driver est un composant qui sert d'interface entre le système d'exploitation et un appareil quelconque avec lequel on souhaiterait communiquer. Le  wrapper peut se définir comme un ensemble de composants logiciels, il appelle d'autres fonctions. Enfin, le test bench va simuler le "Master" (car nous sommes les envoyeurs des informations et donc les "slave") en nous envoyant une requête (une demande de valeur de température) sur le bus I2C grâce à un signal.
 
-La partie software  lira la température sur le signal envoyé par le Master. Le software s'occcupera aussi d'envoyer les données du capteur de température.
+Le hardware 
 
 Une vidéo youtube est également faite afin de mieux cerner les différentes parties des codes, le lien est celui-ci :https://www.youtube.com/watch?v=sxDE2S2OVQ8 
 
-
+dans le software, il y a le HPS qui sert à faire fonctionner le MMAP, l'exécutable projetloane2023 qui est la target du makefile, 
 
